@@ -539,6 +539,7 @@ section {
 
 .plans {
     display: flex;
+    gap: 30px;
     justify-content: center;
     align-items: center;
     gap: 5px;
@@ -546,8 +547,10 @@ section {
 }
 
 .plan-card-mensal {
+    gap: 30px;
     width: 30%;
     height: 10%;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -556,6 +559,7 @@ section {
 }
 
 .plan-card-anual {
+    gap: 30px;
     width: 30%;
     height: 20%;
     display: flex;
@@ -571,6 +575,30 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.plan-card-mensal img:hover {
+    transform: scale(1.05);
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    box-shadow: rgba(57, 255, 20, 0.8) 0px 0px 15px 0px;
+    transform: scale(1.05);
+}
+
+.plan-card-anual img:hover {
+    transform: scale(1.05);
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    box-shadow: rgba(57, 255, 20, 0.8) 0px 0px 15px 0px;
+    transform: scale(1.05);
+}
+
+.plan-card-recorrente img:hover {
+    transform: scale(1.05);
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    box-shadow: rgba(57, 255, 20, 0.8) 0px 0px 15px 0px;
+    transform: scale(1.05);
 }
 
 /* =========================================================
