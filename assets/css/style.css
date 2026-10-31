@@ -580,15 +580,24 @@ section {
 .pilates {
     background: #0b0b0b;
     padding: 50px 10px;
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .pl_img {
     max-width: 100%;
     height: auto;
+    width: 100%;
     border-radius: 15px;
     box-shadow: rgba(57, 255, 20, 0.8) 0px 0px 10px 0px;
 }
+
+.pl_img:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+    box-shadow: rgba(57, 255, 20, 0.8) 0px 0px 15px 0px;
+    transform: scale(1.05);
+}
+
 
 /* =========================================================
    HORÁRIOS
@@ -596,16 +605,24 @@ section {
 
 .horarios .container {
     text-align: center;
-    font-size: 25px;
+    font-size: 16px;
     padding: 15px 10px;
 }
 
 .hr_img {
-    max-width: 85%;
-    margin: 0 auto;
+    max-width: 100%;
     height: auto;
+    width: 100%;
     border-radius: 15px;
     box-shadow: rgba(57, 255, 20, 0.8) 0px 0px 10px 0px;
+}
+
+.hr_img:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+    box-shadow: rgba(57, 255, 20, 0.8) 0px 0px 15px 0px;
+    transform: scale(1.05);
+}
 }
 
 /* =========================================================
